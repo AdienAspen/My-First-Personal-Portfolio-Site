@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Colores de la paleta */
+:root {
+    --primary-color: #1C1C1C; /* Púrpura oscuro */
+    --secondary-color: #8A2BE2; /* Púrpura medio */
+    --accent-color: #14cec5; /* Naranja eléctrico */
+    --background-color: #4B0082; /* Púrpura oscuro */
+    --text-color: #FFFFFF; /* Blanco para el texto */
+}
+
+body {
+    font-family: 'CustomContentFont', sans-serif;
+  }
+  
+  .coder-text, .accordion-content p {
+    font-family: 'CustomContentFont', sans-serif;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+@font-face {
+    font-family: 'CustomContentFont';
+    src: url('./Google Fonts-2025/Genos/static/Genos-Regular.ttf');
+}
+
+#logo {
+    font-family: 'CustomContentFont', sans-serif;
+    font-size: 4rem; /* Ajusta el tamaño según sea necesario */
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
+}
+
+.navigation-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation-item a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+main {
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.accordion-item {
+    border-top: 1px solid #ccc;
+}
+
+.accordion-item:first-child {
+    border-top: none;
+}
+
+.accordion-header {
+    font-family: 'CustomContentFont';
+    font-size: 20px;
+    background: var(--secondary-color);
+    padding: 1rem;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.accordion-header.active {
+    background: var(--background-color);
+}
+
+.accordion-content {
+    display: none;
+    padding: 1rem;
+    background: var(--primary-color);
+}
+
+.accordion-content.active {
+    display: block;
+}
+
+.icon-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    color: var(--accent-color);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0 0.5rem;
+}
+
+footer .fas.fa-heart {
+    color: #e50fe2;
+}
+
+/* Estilos de accesibilidad e inclusión */
+.coder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.coder-text {
+    flex: 1;
+    width: 100%;
+}
+
+.coder-photo {
+    flex: 1;
+    width: 100%;
+}
+
+.coder-photo img {
+    width: 35%;
+    height: auto;
+    max-height: 75vh; /* Asegúrate de ajustar el tamaño de la imagen */
+}
+
+@media (min-width: 768px) {
+    .coder-container {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px; /* Añade un espacio entre los contenedores de texto e imagen */
+    }
+    .coder-text {
+        flex: 1;
+        margin-right: 20px; /* Añade un margen derecho al texto */
+    }
+    .coder-photo {
+        flex: 1;
+    }
+}
+
+/* Estilos de inclusión para accesibilidad */
+.coder-text h2, .coder-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.coder-photo img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.coder-photo img[alt]:empty::before {
+    content: "Photo of Adien Aspen";
+    display: block;
+}
