@@ -63,4 +63,4 @@ If you're a talent scout, recruiter, or someone looking for help with programmin
 
 ---
 
-I hope this covers everything needed for your README file. If you need further adjustments or additional details, feel free to let me know. Let's continue creating incredible things together! 💻🎨📄
+I hope this covers everything you need to understand about this straightforward project. 💻🎨📄
