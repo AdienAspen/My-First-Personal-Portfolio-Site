@@ -1,5 +1,3 @@
-Understood. Here's the updated README file in English, incorporating the use of libraries like Font Awesome, the assistance of Microsoft Copilot for coding help, and an encouraging final message directed towards talent scouts, recruiters, or people seeking help with programming.
-
 ---
 
 # Adien Aspen Coder Portfolio 🚀
