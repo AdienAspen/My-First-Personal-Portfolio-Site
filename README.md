@@ -1,4 +1,7 @@
 ---
+title: "Adien Aspen Coder Portfolio"
+description: "A personal portfolio project for a full-stack programmer in training."
+---
 
 # Adien Aspen Coder Portfolio 🚀
 
