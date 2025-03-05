@@ -1,0 +1,6 @@
+# _config.yml
+---
+layout: default
+title: "Adien Aspen Coder Portfolio"
+description: "A personal portfolio project for a full-stack programmer in training."
+---
